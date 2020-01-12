@@ -23,6 +23,8 @@ public class Test {
     public static void m2(int a, Consumer<Integer> consumer) {
         consumer.accept(a);
         System.out.println("other");
+        System.out.println("tag 1.0");
+
     }
 
     public static Integer m3(String str, Function<String, Integer> function) {
