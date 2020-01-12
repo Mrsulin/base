@@ -24,6 +24,7 @@ public class Test {
         consumer.accept(a);
         System.out.println("other");
         System.out.println("tag 1.0");
+        System.out.println("tag 2.0");
 
     }
 
