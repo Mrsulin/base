@@ -21,6 +21,11 @@ public class Test {
 
 
     public static void m2(int a, Consumer<Integer> consumer) {
+        System.out.println("other add");
+        System.out.println("other add");
+        System.out.println("other add");
+        System.out.println("other add");
+        System.out.println("other add");
         consumer.accept(a);
         System.out.println("other");
     }
